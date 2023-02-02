@@ -22,7 +22,7 @@ class Division {
         
         for i in 1...size {
             
-            let student = Student(forename: "Forename\(i)", surname: "surname\(i)", birthday: Date())
+            let student = Student(forename: "Forename\(i)", surname: "Surname\(i)", birthday: Date())
             division.students.append(student)
             
         }
