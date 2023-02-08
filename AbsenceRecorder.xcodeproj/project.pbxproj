@@ -22,6 +22,9 @@
 		F694F06629880B150045EE51 /* Division.swift in Sources */ = {isa = PBXBuildFile; fileRef = F694F06529880B150045EE51 /* Division.swift */; };
 		F694F069298814790045EE51 /* Date.swift in Sources */ = {isa = PBXBuildFile; fileRef = F694F068298814790045EE51 /* Date.swift */; };
 		F694F06D2988190A0045EE51 /* DivisionItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = F694F06C2988190A0045EE51 /* DivisionItem.swift */; };
+		F6C6839329943DA200A50630 /* AbsenceItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6C6839229943DA200A50630 /* AbsenceItem.swift */; };
+		F6C6839529943FB900A50630 /* StudentAbsence.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6C6839429943FB900A50630 /* StudentAbsence.swift */; };
+		F6C683972994419C00A50630 /* Absence.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6C683962994419C00A50630 /* Absence.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -60,6 +63,9 @@
 		F694F06529880B150045EE51 /* Division.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Division.swift; sourceTree = "<group>"; };
 		F694F068298814790045EE51 /* Date.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Date.swift; sourceTree = "<group>"; };
 		F694F06C2988190A0045EE51 /* DivisionItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DivisionItem.swift; sourceTree = "<group>"; };
+		F6C6839229943DA200A50630 /* AbsenceItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AbsenceItem.swift; sourceTree = "<group>"; };
+		F6C6839429943FB900A50630 /* StudentAbsence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StudentAbsence.swift; sourceTree = "<group>"; };
+		F6C683962994419C00A50630 /* Absence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Absence.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -151,6 +157,8 @@
 			children = (
 				F694F06329880A7F0045EE51 /* Student.swift */,
 				F694F06529880B150045EE51 /* Division.swift */,
+				F6C6839429943FB900A50630 /* StudentAbsence.swift */,
+				F6C683962994419C00A50630 /* Absence.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -163,6 +171,7 @@
 				F667F07A298BC627005A3CE5 /* AbsenceView.swift */,
 				F667F07C298BC7AD005A3CE5 /* RootTabView.swift */,
 				F667F07E298BC84A005A3CE5 /* StatisticsView.swift */,
+				F6C6839229943DA200A50630 /* AbsenceItem.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -308,12 +317,15 @@
 				F694F03A298804700045EE51 /* DivisionsView.swift in Sources */,
 				F694F069298814790045EE51 /* Date.swift in Sources */,
 				F667F07D298BC7AD005A3CE5 /* RootTabView.swift in Sources */,
+				F6C6839529943FB900A50630 /* StudentAbsence.swift in Sources */,
 				F694F06429880A7F0045EE51 /* Student.swift in Sources */,
+				F6C6839329943DA200A50630 /* AbsenceItem.swift in Sources */,
 				F667F07F298BC84A005A3CE5 /* StatisticsView.swift in Sources */,
 				F694F06629880B150045EE51 /* Division.swift in Sources */,
 				F694F038298804700045EE51 /* AbsenceRecorderApp.swift in Sources */,
 				F694F06D2988190A0045EE51 /* DivisionItem.swift in Sources */,
 				F667F07B298BC627005A3CE5 /* AbsenceView.swift in Sources */,
+				F6C683972994419C00A50630 /* Absence.swift in Sources */,
 				F667F081298BF9B2005A3CE5 /* StateController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
