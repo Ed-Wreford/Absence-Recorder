@@ -4,10 +4,10 @@
 //
 //  Created by Ed Wreford on 08/02/2023.
 //
-
+ 
 import Foundation
 
-class Absence {
+class Absence: Codable {
     
     let takenOn: Date
     var studentAbsences: [StudentAbsence]

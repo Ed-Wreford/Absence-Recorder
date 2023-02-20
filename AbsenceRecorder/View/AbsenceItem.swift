@@ -4,7 +4,7 @@
 //
 //  Created by Ed Wreford on 08/02/2023.
 //
-
+ 
 import SwiftUI
 
 struct AbsenceItem: View {

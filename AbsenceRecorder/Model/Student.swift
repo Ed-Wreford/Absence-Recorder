@@ -3,11 +3,11 @@
 //  AbsenceRecorder
 //
 //  Created by Ed Wreford on 30/01/2023.
-//
+// 
 
 import Foundation
 
-class Student {
+class Student: Codable {
     let forename: String
     let surname: String
     let birthday: Date

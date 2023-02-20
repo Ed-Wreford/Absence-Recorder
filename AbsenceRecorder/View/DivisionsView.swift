@@ -3,7 +3,7 @@
 //  AbsenceRecorder
 //
 //  Created by Ed Wreford on 30/01/2023.
-//
+// 
 
 import SwiftUI
 
@@ -18,6 +18,7 @@ struct DivisionsView: View {
                     DivisionItem(division: division)
                 }
             }
+            .onAppear(perform: { state.saveToFile() })
             .navigationTitle(currentDate.getShortDate())
             .toolbar {
                 ToolbarItem(placement: .navigationBarLeading) {

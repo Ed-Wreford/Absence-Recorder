@@ -3,11 +3,11 @@
 //  AbsenceRecorder
 //
 //  Created by Ed Wreford on 30/01/2023.
-//
+// 
 
 import Foundation
 
-class Division {
+class Division: Codable {
     let code: String
     var students: [Student] = []
     var absences: [Absence] = []
